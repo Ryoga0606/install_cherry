@@ -11,3 +11,10 @@ irb(main):006:0> somrthinf = 'Bye'
 irb(main):007:0> puts %!He said,"#{ something }!
 He said,"Hello
 => nil 
+
+irb(main):008:0> puts %q?He said, "Don't speak."?
+He said, "Don't speak."
+=> nil
+irb(main):009:0> puts %q{He said, "Don't speak."}
+He said, "Don't speak."
+=> nil
